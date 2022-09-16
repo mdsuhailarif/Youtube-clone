@@ -3,10 +3,10 @@ import React from 'react';
 
 import {VideoCard,ChannelCard} from './';
 
-const videos = ({videos}) => {
+const videos = ({videos,direction}) => {
   return (
-    <Stack direction='row' flexWrap='wrap' justifyContent= 'flex-start' gap={2}>
-        {videos.map((item,index) => (
+    <Stack direction={direction || 'row'} flexWrap='wrap' justifyContent= 'flex-start' gap={2}>
+        {videos?.map((item,index) => (
             <Box key={index}>
                 {item.id.videoId&& <VideoCard video={item} /> }
                 {item.id.channelId&& <ChannelCard channelDetail={item} /> }
