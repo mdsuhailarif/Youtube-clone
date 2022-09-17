@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# YOUTUBE CLONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**It is responsive video streaming web app developed using Reactjs and Rapid API**.
 
-## Available Scripts
 
-In the project directory, you can run:
+This is the frontend repository
 
-### `npm start`
+## Core packages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. React Hooks (useState, useEffect)
+2. React Router - Routing
+3. Material UI
+5. Network calls - Axios
+6. React Player
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+1. Home (Landing Page)
+2. Video Player ( With Realted videos)
+3. Channel (All videos of the channel)
+4. Search (Get search results)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running locally
 
-### `npm run build`
+run <code>npm i</code> and <code>npm start</code> to see the ListenUp in action
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running Online
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Click on the link below  to see the Youtube Clone in action
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://youtube-clone.on.fleek.co/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## UI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/>
+<p align="center"> 
+<h3>HOME</h3>
+<img align="left" src="./screenshots/home.png" alt="home" width="75%"/>
+<img align="center" src="./screenshots/home_mob.png" alt="home" width="20.75%"/>
+</p>
+<br/>
+<p align="center"> 
+<h3>VIDEO PLAYER</h3>
+<img align="left" src="./screenshots/video.png" alt="home" width="75%"/>
+<img align="center" src="./screenshots/video_mob.png" alt="home" width="20.75%"/>
+</p>
+<br/>
+<p align="center"> 
+<h3>CHANNEL</h3>
+<img align="left" src="./screenshots/channel.png" alt="home" width="75%"/>
+<img align="center" src="./screenshots/channel_mob.png" alt="home" width="20.75%"/>
+</p>
+<br/>
+<p align="center"> 
+<h3>SEARCH</h3>
+<img align="left" src="./screenshots/search.png" alt="home" width="75%"/>
+<img align="center" src="./screenshots/search_mob.png" alt="home" width="20.75%"/>
+</p>
